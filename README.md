@@ -29,7 +29,8 @@ With the design, entry barrier is significantly lowered not only for the SPs to 
 ## Design Architecture
 The subject of the design is a smart contract that executes transactions on the blockchain automatically. The proposed smart contract is a liquidity pool and a lending market, which calculates interest rate calculations, manages liquidity and provides clearing and settlement. This smart contract mainly interacts with two types of users: 1) lenders, which are usually the holders of the FIL tokens that are ready to earn interest; 2) borrowers, which are the storage providers who are willing to borrow funds to meet the collateral requirement for storage power growth.
 <p align="center">
-<img width="931" alt="Screen Shot 2023-01-16 at 2 26 14 PM" src="https://user-images.githubusercontent.com/29261438/215306526-5007d4a5-3720-4991-b6c2-d424d050257e.png">
+<img width="1107" alt="Screen Shot 2023-02-01 at 1 45 30 PM" src="https://user-images.githubusercontent.com/29261438/215963591-90361ee9-89b9-462d-84ed-412d29e8c345.png">
+
 
 Figure 1[^1]: Relationship between lenders, borrowers and the liquidity pool
 [^1]: Icon image: Flaticon.com
@@ -55,7 +56,36 @@ When borrowers request to repay the loan, principal and interest payments are ma
 ## Economics
 ### 3.1 Borrowing Interest Rate
 #### 3.1.1	Design Rationale
+A smart contract in the protocol updates and implements the borrowing interest rate with corresponding utilization rate. Utilization rate is the total amount of FIL borrowed in a share of total liquidity in the FIL lending pool at a certain point of time. The relationship between the borrowing interest rates and the utilization rates can be defined in a mathematical formula. Several factors should be taken into consideration,
+
+•	Borrowing interest rate is determined by the utilization rate as in nature, a higher utilization, or a higher demand relative to supply, points to a higher interest rate, which increases the cost of capital;
+
+•	The marginal interest rate (slope) should be constantly changing to accommodate the change of demand in the protocol, and the concept of diminishing of marginal utility should be taken into consideration. For example, the slope of the curve could be increasing along with the growth of the utilization rate;
+
+•	The interest rate curve should be dynamic and programmable by defining critical points such as the minimum, maximum and interest rate at an optimal utilization;
+
+•	Certain mechanisms should be considered to stable the borrowing rate at inception and prevent the protocol from running out of liquidity in case surge of utilization.
+
 #### 3.1.2	Model Construction
 #### 3.1.3	Parameters and Simulations
 #### 3.1.4	Borrowings and Repayments
 
+### 3.2 Deposit Income Allocation
+#### 3.2.2	Design Rationale
+Lenders who provide liquidity to the FILL Liquidity Pool expect to receive compensations on their opportunity cost of capital in forms of either interest income or capital appreciation. An automated system is designed to facilitate the distribution of the deposit benefit and determine the rate of return. Key factors of the system should include but not limited to,
+
+•	Certificate tokens FLE are minted and granted to lenders who deposited FIL to the liquidity pool. FLE is acting as a proof of deposit and a vehicle of return allocation;
+
+•	Deposit and withdraw is always open and based on the spot exchange rate among FLE and FIL;
+
+•	The value of FLE in terms of FIL should constantly grow naturally as more FIL being borrowed and returned along with interest payment to the liquidity pool. Part of the interest paid by borrowers, is reflected in the value of the FLE token and transferred to the lenders;
+
+•	For deposit, FLE/FIL exchange rate should be determined by utilization rate. Higher utilization rate makes it more cost-effective to deposit. As a protection to the system, the endpoint utilization rate should be applied for determination. 
+
+•	For redemption, similarly, the amount of FIL can be redeemed with one unit of FLE should also be determined by the endpoint utilization. Higher utilization rate should attribute to less valuable FLE in terms of FIL, in other words, less cost-effective to redeem. 
+
+•	However, the endpoint utilization rate cannot be directly determined at redemption. The system should apply the current exchange rate to calculate the approximated FIL to be redeemed and compare with the FIL available in the pool.
+
+#### 3.2.1	Providing and Withdrawing FIL Liquidity
+#### 3.2.3	Model Construction
+#### 3.2.4	Parameters and Simulations
