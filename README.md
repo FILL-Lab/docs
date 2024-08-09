@@ -26,6 +26,9 @@ To distinct from other lending markets, FILL does not require storage providers 
 The borrowing interest rate is not pre-defined or fixed, but dynamically adjusted naturally by the market condition, i.e., supply and demand. Higher demand in borrowing FIL builds up higher utilization rate for the liquidity pool, which pushes up the borrowing interest rate, while higher amount of FIL deposited into the pool reduces the utilization rate and pulls down the borrowing interest rate.
 
 With the design, entry barrier is significantly lowered not only for the SPs to borrow FIL for power growth, but also for FIL token holders to make deposit, regardless the amount of FIL committed. As a bridge between the token holders as lenders, and storage providers as borrowers, FILL is expected be providing unprecedented liquidity in Filecoin market. It would also contribute the Filecoin ecosystem’s overarching goal of incentivizing a global network of computer operators to provide file sharing and storage services by enhancing the liquidity of FIL and further reducing the cost of storage power growth.
+
+### 1.3 [Contract list](./contract/contracts.md)
+
 ## Design Architecture
 The subject of the design is a smart contract that executes transactions on the blockchain automatically. The proposed smart contract is a liquidity pool and a lending market, which calculates interest rate calculations, manages liquidity and provides clearing and settlement. This smart contract mainly interacts with two types of users: 1) lenders, which are usually the holders of the FIL tokens that are ready to earn interest; 2) borrowers, which are the storage providers who are willing to borrow funds to meet the collateral requirement for storage power growth.
 <p align="center">
