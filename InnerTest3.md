@@ -4,51 +4,38 @@
 
 ## Chain Id 314159
 
-## Deployer <a id="Deployer"></a>
-| Contract                   | Address                                    |
-|----------------------------|--------------------------------------------|
-| Deployer1                  | 0x9983140416677B964b5e83BBdbbb2115E0B68678 |
-| Deployer2                  | 0xB19612df49a51DfC907612BEBcD0CEA7bA9eaC95 |
-| Deployer3                  | 0x88a93b4F12ab68C0033de05B130565497EE8ab5F |
-
 ## Logic <a id="Logic"></a>
 | Contract                   | Address                                    |
 |----------------------------|--------------------------------------------|
-| Validation                 | 0xeB39dcC5ab4cf6ba2ea7391bbb7Cb2C170AfbA0c | 
-| Calculation                | 0x84203bb40F9fC45B013f70aDDf490191fF976B8F |
-| FilecoinAPI                | 0x7EeAbc4084E66efdcceE2d7AD4e08aF5288B38b9 |
-| FilTrust                   | 0x520405ac3a08c88FADa1064dF8Dd84B7B48133f3 |
-| FitStake                   | 0x0F0325c2c5E00F4e7B58EBEeD7A7255589AC5342 |
-| Governance                 | 0x36c16e5E89D239451C78bacbFDE67E03469C8253 |
-| FilLiquid                  | 0x8D6C016F996d441068F8085F42269d99d428883B |
-| FilGovernance              | 0xaFcB246A0a95dda8AbA48F856334409978dFE633 |
-| Datafetcher                | 0xD205cAb8ca413dEA3164931210D3a671885B36ab |
-| FILGovernancePool	         | 0xb8999773de5ff26c6cB76D7efDE4A03b73dE1aCb |
+| Validation                 | 0x7326A51873f965019C3E24320eC31a31B67674fa | 
+| Calculation                | 0xCED447D6ad99D0AB91560fc6060D3271d9164e58 |
+| FilecoinAPI                | 0x6c03493267604439484511b8C44FDA7120180977 |
+| FilTrust                   | 0x220e21402744320B6eC219c6057CaD36D2570bf8 |
+| FitStake                   | 0xE0dD1a81d67AF9A4C6004cc2e5B2b123f7c0D924 |
+| Governance                 | 0x1bff9fb3a9120AD210A5Dbd0ddBe2a6F6C600cEb |
+| FilLiquid                  | 0x0C89F3f59e73B53F36139bd603c13581e9b2c744 |
+| FilGovernance              | 0x7B87D63001229f016398F0623eD2fBA07e50a81d |
+| Datafetcher                | 0x46bFED777368f3B9024597736AF1982C93e7006E |
+###### [Back to top](#menu)
 
 ## MuliSigner <a id="MuliSigner"></a>
 | Contract                   | Address                                    |
 |----------------------------|--------------------------------------------|
-| InstitutionSigner          | 0xe623714BDE07B764761f779C2ac01D57606d92A8 |
-| TeamSigner                 | 0x7D26E3FeC04EaFA95230A1F22528C141e3a2E97f |
-| FoundationSigner           | 0xCBE27891C8341e1E3A3f623945A435145435C364 |
-| ReserveSigner              | 0xCEb020149839F5575385bF103b7215e2EC9e252C |
-| CommunitySigner            | 0x9AD50dc67cD5b2831020D33eEc901465F912824A |
-| FeeReceiverSigner          | 0xC39647E5DC2333429D07FDAc9Ab87E8144b28B3a |
+| InstitutionSigner          | 0xEfd9b48fD1511617b6128B268Ac3f62EbdAAdC52 |
+| TeamSigner                 | 0xFC77428d51873A5a44c555a7c8EB20bE992af92c |
+| FoundationSigner           | 0xd23AE698F02edEB149C81aD12C9A57D016B88630 |
+| ReserveSigner              | 0xc367987e18091A74843117cF4556F5De7a938c08 |
+| CommunitySigner            | 0x341eeC991A6c2E222cf2745392DB4D1c1D3b0Aa2 |
+| FeeReceiverSigner          | 0xCBe57b5705CD6763C1777c52467e7E4fD0edAeA3 |
+###### [Back to top](#menu)
 
 ## ERC20Pot <a id="ERC20Pot"></a>
 | Contract                   | Address                                    |
 |----------------------------|--------------------------------------------|
-| InstitutionPot             | 0x72C1BDfb143d404181930aF33326D781b227F470 |
-| TeamPot                    | 0x7f476BcB3627d283833DEA849a8e0Bec6097fDBc |
-| FoundationPot              | 0xc726161BCea750d0e29b98fa46072837aa1Aa669 |
-| ReservePot                 | 0x7e5c2Ace748E0e714D08846A70668ffC0Fcc6650 |
-| CommunityPot               | 0xC0Eb9295E2797650efEf3dC389D6EE4698cFd2C8 |
-| FeeReceiverPot             | 0x4E31F7Bc6aE98164132aa83f1a1691019cB59734 |
-
-###### [Back to top](CCM.md#menu)
-
-## Note  <a id="Note"></a>
-
-`B` stands for big-endian, we can search the contract transaction history in corresponding explorer.
-
-`L` stands for little-endian, we usually use it as the asset hash input when we do binding asset hash operation.
+| InstitutionPot             | 0xf846c57f1de0521d6af703026f132B0Cd7E93C2A |
+| TeamPot                    | 0x058ebE44BB290d9a1894DAe191733420A53b8ad7 |
+| FoundationPot              | 0xf508AA9C22FD8ae30B2C2fFf70611c17F04C4069 |
+| ReservePot                 | 0x1d08D9C7eA007e5B4e251f88ef37Bd269182F8Be |
+| CommunityPot               | 0x6e68f4C65f310CFFcDcD5F64f6B3ef271F58498a |
+| FeeReceiverPot             | 0xc90D02b657b131fF137725139E6383D653C2a824 |
+###### [Back to top](#menu)

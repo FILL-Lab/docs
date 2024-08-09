@@ -10,6 +10,7 @@
 | Deployer1                  | 0x9983140416677B964b5e83BBdbbb2115E0B68678 |
 | Deployer2                  | 0xB19612df49a51DfC907612BEBcD0CEA7bA9eaC95 |
 | Deployer3                  | 0x88a93b4F12ab68C0033de05B130565497EE8ab5F |
+###### [Back to top](#menu)
 
 ## Logic <a id="Logic"></a>
 | Contract                   | Address                                    |
@@ -24,6 +25,7 @@
 | FilGovernance              | 0xaFcB246A0a95dda8AbA48F856334409978dFE633 |
 | Datafetcher                | 0xD205cAb8ca413dEA3164931210D3a671885B36ab |
 | FILGovernancePool	         | 0xb8999773de5ff26c6cB76D7efDE4A03b73dE1aCb |
+###### [Back to top](#menu)
 
 ## MuliSigner <a id="MuliSigner"></a>
 | Contract                   | Address                                    |
@@ -34,6 +36,7 @@
 | ReserveSigner              | 0xCEb020149839F5575385bF103b7215e2EC9e252C |
 | CommunitySigner            | 0x9AD50dc67cD5b2831020D33eEc901465F912824A |
 | FeeReceiverSigner          | 0xC39647E5DC2333429D07FDAc9Ab87E8144b28B3a |
+###### [Back to top](#menu)
 
 ## ERC20Pot <a id="ERC20Pot"></a>
 | Contract                   | Address                                    |
@@ -44,11 +47,4 @@
 | ReservePot                 | 0x7e5c2Ace748E0e714D08846A70668ffC0Fcc6650 |
 | CommunityPot               | 0xC0Eb9295E2797650efEf3dC389D6EE4698cFd2C8 |
 | FeeReceiverPot             | 0x4E31F7Bc6aE98164132aa83f1a1691019cB59734 |
-
-###### [Back to top](CCM.md#menu)
-
-## Note  <a id="Note"></a>
-
-`B` stands for big-endian, we can search the contract transaction history in corresponding explorer.
-
-`L` stands for little-endian, we usually use it as the asset hash input when we do binding asset hash operation.
+###### [Back to top](#menu)

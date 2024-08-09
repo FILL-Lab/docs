@@ -9,6 +9,7 @@
 |----------------------------|--------------------------------------------|
 | DeployerFILLAddress        | 0x0F055A59e185C1CCf8747140D49F69E7964452CE |
 | DeployerDataFetcherAddress | 0x912997F00cB2dA89C128647B9B5FFF08D1cC8c01 |
+###### [Back to top](#menu)
 
 ## Logic <a id="Logic"></a>
 | Contract                   | Address                                    |
@@ -22,7 +23,7 @@
 | FilLiquid                  | 0xFD669BDDfbb0d085135cBd92521785C39c95bA4b |
 | FilGovernance              | 0xc87FAb479B450993E8A7b498C631AdF81f3ca5B4 |
 | Datafetcher                | 0x7a73Cda2109cd12355c9144419272523c247adB4 |
-
+###### [Back to top](#menu)
 
 ## MuliSigner <a id="MuliSigner"></a>
 | Contract                   | Address                                    |
@@ -34,7 +35,7 @@
 | ReserveSigner              | 0xA228429D0f4572bE1f530D3EB8e2452330D14E7E |
 | CommunitySigner            | 0x4A5db18037886D5685644dF499a65f538d3adf1E |
 | FeeReceiverSigner          | 0x6dc515B288Acd46102CCcf0300B4e14cC30751Ac |
-
+###### [Back to top](#menu)
 
 ## ERC20Pot <a id="ERC20Pot"></a>
 | Contract                   | Address                                    |
@@ -46,6 +47,7 @@
 | ReservePot                 | 0xBda56B7B1C6A1a6B355D2706906aCED67a1E9ef8 |
 | CommunityPot               | 0x788Ea976669D4E19FC9554F356E1B4a4F7f52e82 |
 | FeeReceiverPot             | 0x7201166FAD30f26f27c36842209b1A35e9f6f0d3 |
+###### [Back to top](#menu)
 
 ## ConfigAddrs <a id="ConfigAddrs"></a>
 | Contract                   | Address                                    |
@@ -64,6 +66,7 @@
 |                            | 0x788Ea976669D4E19FC9554F356E1B4a4F7f52e82 |
 | FeeReceiver                | 0x6dc515B288Acd46102CCcf0300B4e14cC30751Ac |
 |                            | 0x7201166FAD30f26f27c36842209b1A35e9f6f0d3 |
+###### [Back to top](#menu)
 
 ## SingerMember <a id="SingerMember"></a>
 | Contract                   | Signer                                     |                Members                     |    Threshold   |
@@ -95,6 +98,7 @@
 | FeeReceiverSigner          | 0x6dc515B288Acd46102CCcf0300B4e14cC30751Ac | 0xF83d76800CDaDc84CbB72404aB9bcF8b893e563E |        2       |     
 |                            |                                            | 0x606FD6f0035C1C5E10caa0986Fc2651Dca5fC588 |                |    
 |                            |                                            | 0xE0954F634E71a84d0d3756681D271E92C8898268 |                |
+###### [Back to top](#menu)
 
 ## HelpContract <a id="HelpContract"></a>
 | Contract                   | Address                                    |
@@ -111,11 +115,4 @@ the claim user number list as follow:
 ```dat
 [9380,12086,1625,701,1001,991,104]
 ```
-
-###### [Back to top](CCM.md#menu)
-
-## Note  <a id="Note"></a>
-
-`B` stands for big-endian, we can search the contract transaction history in corresponding explorer.
-
-`L` stands for little-endian, we usually use it as the asset hash input when we do binding asset hash operation.
+###### [Back to top](#menu)
