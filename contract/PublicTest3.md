@@ -46,3 +46,10 @@
 | CommunityPot               | 0xDa3baAfda794155AEda5F391Eb5986621889460e |
 | FeeReceiverPot             | 0x0C3FABbAAE1a0C88f05A9472e2E644F709FCDA63 |
 ###### [Back to top](#menu)
+
+## HelpContract <a id="HelpContract"></a>
+| Contract                   | Address                                    |
+|----------------------------|--------------------------------------------|
+| Mintable_ERC20(use as FIG) | 0xf1BB5D9C04797b4064be8655da58fA67BBedd4f9 |
+| BatchTransfer              | 0xC0b064Ee15d5067aA120699F0A5AD343eF0BaecD |
+###### [Back to top](#menu)
