@@ -104,7 +104,7 @@
 | Contract                   | Address                                    |
 |----------------------------|--------------------------------------------|
 | Claim                      | 0xA74722f7EBbA44515b9672060e933aD631b9Ce63 |
-| BatchTransfer              | 0xc6dD9023d843C894B05cC9e4B4f6471A6806B9E9 |
+| BatchTransfer              | 0x67BffbF42C7531E8343e5963a284266CD58c4125 |
 | Static                     | 0xA25F892cF2731ba89b88750423Fc618De0959C43 |
 
 and the claim merkle roots as follow:
