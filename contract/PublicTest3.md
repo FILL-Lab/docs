@@ -52,4 +52,14 @@
 |----------------------------|--------------------------------------------|
 | Mintable_ERC20(use as FIG) | 0xf1BB5D9C04797b4064be8655da58fA67BBedd4f9 |
 | BatchTransfer              | 0xC0b064Ee15d5067aA120699F0A5AD343eF0BaecD |
+
+
+## FIGStake <a id="FIGStake"></a>
+| Contract                   | Address                                    |
+|----------------------------|--------------------------------------------|
+| FigStake                   | 0x234086c7f442307e494d160f6d5bacd79a78744d |
+| FilPot                     | 0x999a98F14C6C678FB0E6C15bF2B94ec5129C55eb |
+| MintableErc20              | 0xC71762a5d548d9bbFEa9829F07271Bb0419c267f |
+| Deployer                   | 0x655CAA41be50c97FD75193a4A173BaBBf9A5A36C |
+
 ###### [Back to top](#menu)

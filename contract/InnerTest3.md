@@ -38,4 +38,13 @@
 | ReservePot                 | 0x1d08D9C7eA007e5B4e251f88ef37Bd269182F8Be |
 | CommunityPot               | 0x6e68f4C65f310CFFcDcD5F64f6B3ef271F58498a |
 | FeeReceiverPot             | 0xc90D02b657b131fF137725139E6383D653C2a824 |
+
+## FIGStake <a id="FIGStake"></a>
+| Contract                   | Address                                    |
+|----------------------------|--------------------------------------------|
+| FigStake                   | 0xdE3014E0CB9491af7616dC591c106735FF706c99 |
+| FilPot                     | 0x999a98F14C6C678FB0E6C15bF2B94ec5129C55eb |
+| MintableErc20              | 0xC71762a5d548d9bbFEa9829F07271Bb0419c267f |
+| Deployer                   | 0x655CAA41be50c97FD75193a4A173BaBBf9A5A36C |
+
 ###### [Back to top](#menu)
