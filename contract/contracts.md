@@ -106,6 +106,14 @@
 | Claim                      | 0xA74722f7EBbA44515b9672060e933aD631b9Ce63 |
 | BatchTransfer              | 0x67BffbF42C7531E8343e5963a284266CD58c4125 |
 | Static                     | 0xA25F892cF2731ba89b88750423Fc618De0959C43 |
+###### [Back to top](#menu)
+
+## FIGStake <a id="FIGStake"></a>
+| Contract                   | Address                                    |
+|----------------------------|--------------------------------------------|
+| FigStake                   | 0xD44bfE4523f1B2703DDE9C7dBc010Ad39EF668f7 |
+###### [Back to top](#menu)
+
 
 and the claim merkle roots as follow:
 ```dat
